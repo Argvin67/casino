@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "casino",
+  "version": "${version}",
+  "name": "Casino",
+  "description": "Казино: монетка, слоты, рулетка и блэкджек. Ставки в изумрудах.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.casino.CasinoMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
